@@ -45,7 +45,6 @@ abstract class SourceModule {
     @ContributesAndroidInjector abstract fun contributesAidexWorker(): AidexPlugin.AidexWorker
 
     @ContributesAndroidInjector abstract fun contributesRequestDexcomPermissionActivity(): RequestDexcomPermissionActivity
-    @ContributesAndroidInjector abstract fun contributesRequestPathedSIAppPluginPermissionActivity(): RequestPathedSIAppPluginPermissionActivity
 
     @Module
     interface Bindings {
